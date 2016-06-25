@@ -1,12 +1,17 @@
 // Show  post before 1  day
 'date_query'=>
-            		        array(
-            		          'column'  => 'post_date',
-            		           'before'   => '- 1 days',
-            		        )
-// Show post before 24  hours
+           array(
+            'column'  => 'post_date',
+            'before'   => '- 1 days',
+             )
+// Show post after 24  hours
 'date_query' => array(
      array(
            'after' => '24 hours ago'
            )
      )
+// Show post  before 9 hours 
+ 'date_query'=>
+	 array(
+            'before'   => '9 hours ago',
+             ),
